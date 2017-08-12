@@ -1,0 +1,16 @@
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\bin\Debug\xNet Downloader.exe.config
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\bin\Debug\xNet Downloader.exe
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\bin\Debug\xNet Downloader.pdb
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet Downloader.csprojResolveAssemblyReference.cache
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet_Downloader.Form1.resources
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet_Downloader.Properties.Resources.resources
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet Downloader.csproj.GenerateResource.Cache
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet Downloader.exe
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet Downloader.pdb
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\bin\Debug\xNet Downloader.exe.manifest
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\bin\Debug\xNet Downloader.application
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet Downloader.exe.manifest
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet Downloader.application
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\bin\Debug\EmbeddedResources\ffmpeg.exe
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\bin\Debug\EmbeddedResources\youtube-dl.exe
+c:\users\erik\documents\visual studio 2017\Projects\xNet Downloader\xNet Downloader\obj\Debug\xNet_Downloader.SPLASH.resources

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="xNet Downloader.exe" version="1.0.0.2" publicKeyToken="e3fffa0aba5dc82f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="xNet Downloader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="xNet Downloader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Costura" version="1.6.2.0" publicKeyToken="9919EF960D84173D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="xNet Downloader.exe" size="48789416">
+      <assemblyIdentity name="xNet Downloader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vYBNp6GI3CylELbkUNdE/PO2lYeiGTr2z3wugoiI9ow=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="xNet Downloader.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ibSJhBWt6kT1jcg30WbAXCZJOzy699/zUdgGnXs5g9w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Erik-PC\Erik" issuerKeyHash="d143370007edca9c03fc6dce4dfd9c8f604cca08" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ACu7CCfSW56I3v73ggbFhutQawQ4ttFb3QdSMlExYtM=</DigestValue></Reference></SignedInfo><SignatureValue>LxWjl1qx5yHKUvIw0fjW6Y+8f+xBe0+HoDjWaf0k0zqe4mhVtov+RahNx89pGAnpHmpE3ifEhyu08EaUEawKxTn0XkWTIal+tc/20w87v9VLNWrvPq1FYUzFvrhDIwG7qZ6B3Qp2MKgn49T8XLSmWOVaBOGLTzUCdqQ11Rw4J+o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t3n5QXjxqJgt1mxtcprqbERJZoDDVjP6ohQ2um4Q/RDMS+1Pma5KqnNpK7PwRFV+xS7NwJuKfZybr1q3cMqfl+OjAs8BrE06+K9fDITL4sIwH6a3JbL28+gOp5x16376/ECY6JawntsG+Yvdia6GdDNfQQnqFUZmljNMB4T1oeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d3623151325207dd5bd1b638046b50eb86c50682f7fede889e5bd22708bb2b00" Description="" Url=""><as:assemblyIdentity name="xNet Downloader.exe" version="1.0.0.2" publicKeyToken="e3fffa0aba5dc82f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Erik-PC\Erik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Heci/NoKJbE8Zhrymdz0VfhWQ0X+9ENOzB7ivg8CsGo=</DigestValue></Reference></SignedInfo><SignatureValue>QUirPzS7PT0OAUxj90RQOIws8FyffccI3fsca6PQ2Nfu6FjmmS4xHh0By60cY8IZ6ezlitMWuZFV6wD+WbT0rmaRdCaaeaFlzQKkAUHRYBASVHDCzgZwwayVoY+I9cZTOmfMJr3e0Al7D1BdrGloK4ON+pLMVYye0wGWyb0XGlM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t3n5QXjxqJgt1mxtcprqbERJZoDDVjP6ohQ2um4Q/RDMS+1Pma5KqnNpK7PwRFV+xS7NwJuKfZybr1q3cMqfl+OjAs8BrE06+K9fDITL4sIwH6a3JbL28+gOp5x16376/ECY6JawntsG+Yvdia6GdDNfQQnqFUZmljNMB4T1oeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQLZDqFQV2modB1/MQPBlrHzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARQByAGkAawAtAFAAQwBcAEUAcgBpAGswHhcNMTcwODEyMDgzODExWhcNMTgwODEyMTQzODExWjAjMSEwHwYDVQQDHhgARQByAGkAawAtAFAAQwBcAEUAcgBpAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALd5+UF48aiYLdZsbXKa6mxESWaAw1Yz+qIUNrpuEP0QzEvtT5muSqpzaSuz8ERVfsUuzcCbin2cm69at3DKn5fjowLPAaxNOvivXwyEy+LCMB+mtyWy9vPoDqecdet++vxAmOiWsJ7bBvmL3YmuhnQzX0EJ6hVGZpYzTAeE9aHhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEACuQxA3HdSPlGz1YGX/T2ebfIQs+S6kQEPUAZVzY6zlakzbU2Vpn78554ZEh3cNtwm0dKwpa5amiSjXpBf/cDhWFmilxADbbsssdRw9IVVrNj4m+te9aTkFKDuTypg0TUtmUZ5pR3keCKSFYLDrRGF/L5tnJ+yMHrEWcXKDq2rxc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
